@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/baiquan/Documents/webserver/Log
+CMAKE_SOURCE_DIR = /home/baiquan/Documents/log/Log_01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/baiquan/Documents/webserver/Log
+CMAKE_BINARY_DIR = /home/baiquan/Documents/log/Log_01
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/baiquan/Documents/webserver/Log && $(CMAKE_COMMAND) -E cmake_progress_start /home/baiquan/Documents/webserver/Log/CMakeFiles /home/baiquan/Documents/webserver/Log/Test/CMakeFiles/progress.marks
-	cd /home/baiquan/Documents/webserver/Log && $(MAKE) -f CMakeFiles/Makefile2 Test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/baiquan/Documents/webserver/Log/CMakeFiles 0
+	cd /home/baiquan/Documents/log/Log_01 && $(CMAKE_COMMAND) -E cmake_progress_start /home/baiquan/Documents/log/Log_01/CMakeFiles /home/baiquan/Documents/log/Log_01/Test/CMakeFiles/progress.marks
+	cd /home/baiquan/Documents/log/Log_01 && $(MAKE) -f CMakeFiles/Makefile2 Test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/baiquan/Documents/log/Log_01/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/baiquan/Documents/webserver/Log && $(MAKE) -f CMakeFiles/Makefile2 Test/clean
+	cd /home/baiquan/Documents/log/Log_01 && $(MAKE) -f CMakeFiles/Makefile2 Test/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/baiquan/Documents/webserver/Log && $(MAKE) -f CMakeFiles/Makefile2 Test/preinstall
+	cd /home/baiquan/Documents/log/Log_01 && $(MAKE) -f CMakeFiles/Makefile2 Test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/baiquan/Documents/webserver/Log && $(MAKE) -f CMakeFiles/Makefile2 Test/preinstall
+	cd /home/baiquan/Documents/log/Log_01 && $(MAKE) -f CMakeFiles/Makefile2 Test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/baiquan/Documents/webserver/Log && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/baiquan/Documents/log/Log_01 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Test/CMakeFiles/Testlog.dir/rule:
-	cd /home/baiquan/Documents/webserver/Log && $(MAKE) -f CMakeFiles/Makefile2 Test/CMakeFiles/Testlog.dir/rule
+	cd /home/baiquan/Documents/log/Log_01 && $(MAKE) -f CMakeFiles/Makefile2 Test/CMakeFiles/Testlog.dir/rule
 .PHONY : Test/CMakeFiles/Testlog.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ Testlog: Test/CMakeFiles/Testlog.dir/rule
 
 # fast build rule for target.
 Testlog/fast:
-	cd /home/baiquan/Documents/webserver/Log && $(MAKE) -f Test/CMakeFiles/Testlog.dir/build.make Test/CMakeFiles/Testlog.dir/build
+	cd /home/baiquan/Documents/log/Log_01 && $(MAKE) -f Test/CMakeFiles/Testlog.dir/build.make Test/CMakeFiles/Testlog.dir/build
 .PHONY : Testlog/fast
 
 Test.o: Test.cpp.o
@@ -131,7 +131,7 @@ Test.o: Test.cpp.o
 
 # target to build an object file
 Test.cpp.o:
-	cd /home/baiquan/Documents/webserver/Log && $(MAKE) -f Test/CMakeFiles/Testlog.dir/build.make Test/CMakeFiles/Testlog.dir/Test.cpp.o
+	cd /home/baiquan/Documents/log/Log_01 && $(MAKE) -f Test/CMakeFiles/Testlog.dir/build.make Test/CMakeFiles/Testlog.dir/Test.cpp.o
 .PHONY : Test.cpp.o
 
 Test.i: Test.cpp.i
@@ -140,7 +140,7 @@ Test.i: Test.cpp.i
 
 # target to preprocess a source file
 Test.cpp.i:
-	cd /home/baiquan/Documents/webserver/Log && $(MAKE) -f Test/CMakeFiles/Testlog.dir/build.make Test/CMakeFiles/Testlog.dir/Test.cpp.i
+	cd /home/baiquan/Documents/log/Log_01 && $(MAKE) -f Test/CMakeFiles/Testlog.dir/build.make Test/CMakeFiles/Testlog.dir/Test.cpp.i
 .PHONY : Test.cpp.i
 
 Test.s: Test.cpp.s
@@ -149,7 +149,7 @@ Test.s: Test.cpp.s
 
 # target to generate assembly for a file
 Test.cpp.s:
-	cd /home/baiquan/Documents/webserver/Log && $(MAKE) -f Test/CMakeFiles/Testlog.dir/build.make Test/CMakeFiles/Testlog.dir/Test.cpp.s
+	cd /home/baiquan/Documents/log/Log_01 && $(MAKE) -f Test/CMakeFiles/Testlog.dir/build.make Test/CMakeFiles/Testlog.dir/Test.cpp.s
 .PHONY : Test.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/baiquan/Documents/webserver/Log && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/baiquan/Documents/log/Log_01 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
