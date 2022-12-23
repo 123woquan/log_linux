@@ -78,7 +78,7 @@ void AsyncLogging::threadFunc()
         {
             m_nextBuffer = std::move(newbuffer2);
         }
-        
+        ul.unlock();
         for (const auto &item : bufferVectortoWrite)
         {
             output.Append(item->Data(), item->Length());
